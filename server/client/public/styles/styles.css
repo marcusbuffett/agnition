@@ -282,11 +282,13 @@ nav a {
 }
 
 nav a:hover {
-  /* color : hsla(210, 100%, 70%, 1); */
-  /* font-weight: bold; */
-  /* align-self: left; */
   color: white;
   text-decoration: underline;
+}
+
+nav a:focus {
+  color: white;
+  text-decoration: none;
 }
 
 nav a:active {
@@ -577,6 +579,7 @@ a.guide-link {
 .question-set {
   display: flex;
   flex-direction: column;
+  margin: 20px 0px;
 }
 
 div.indvar-question {
